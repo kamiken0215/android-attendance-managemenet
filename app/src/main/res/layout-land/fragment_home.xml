@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Presentation.Home.HomeFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorBlack"
+    android:padding="0dp">
+
+    <!--グリッド始まり,縦は16分割,横は10分割-->
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.0625"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.125"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1875" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.25"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3125"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.375"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.4375"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5625"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.625"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.6875"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8125"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.875"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9375"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="1"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="1"/>
+
+    <!--グリッド終わり-->
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg0"
+        app:layout_constraintBottom_toTopOf="@+id/hg5"
+        app:layout_constraintStart_toEndOf="@id/vg0"
+        app:layout_constraintEnd_toStartOf="@id/vg5"
+        android:background="@drawable/background_clock">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg0"
+        app:layout_constraintBottom_toTopOf="@+id/hg2"
+        app:layout_constraintStart_toEndOf="@id/vg3"
+        app:layout_constraintEnd_toStartOf="@id/vg5"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/home_tv_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2019"
+            android:textSize="@dimen/font_size_20sp"
+            android:textColor="@color/colorWhite">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/home_tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2019"
+            android:textSize="@dimen/font_size_20sp"
+            android:textColor="@color/colorWhite">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <!--編集ボタン-->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin_16dp"
+        app:layout_constraintTop_toTopOf="@+id/hg0"
+        app:layout_constraintBottom_toTopOf="@+id/hg2"
+        app:layout_constraintStart_toEndOf="@id/vg5"
+        app:layout_constraintEnd_toStartOf="@id/vg7">
+
+        <Button
+            android:id="@+id/home_btn_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_orange">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg0"
+        app:layout_constraintBottom_toTopOf="@+id/hg2"
+        app:layout_constraintStart_toEndOf="@id/vg5"
+        app:layout_constraintEnd_toStartOf="@id/vg7"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/home_img_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <!--上部枠-->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/margin_20dp"
+        android:layout_marginEnd="@dimen/margin_20dp"
+        app:layout_constraintTop_toTopOf="@+id/hg2"
+        app:layout_constraintBottom_toTopOf="@+id/hg6"
+        app:layout_constraintStart_toEndOf="@id/vg0"
+        app:layout_constraintEnd_toStartOf="@id/vg8"
+        android:background="@drawable/frame_gray"
+        >
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/home_tv_time_start"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg2"
+        app:layout_constraintBottom_toTopOf="@+id/hg4"
+        app:layout_constraintStart_toEndOf="@id/vg1"
+        app:layout_constraintEnd_toStartOf="@id/vg7"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font_size_40sp"
+        android:text="--:--"
+        />
+
+    <TextView
+        android:id="@+id/home_tv_time_finish"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg4"
+        app:layout_constraintBottom_toTopOf="@+id/hg6"
+        app:layout_constraintStart_toEndOf="@id/vg1"
+        app:layout_constraintEnd_toStartOf="@id/vg7"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font_size_40sp"
+        android:text="--:--"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg6"
+        app:layout_constraintBottom_toTopOf="@+id/hg7"
+        app:layout_constraintStart_toEndOf="@id/vg3"
+        app:layout_constraintEnd_toStartOf="@id/vg7"
+        android:textColor="@color/colorOrange">
+
+    </TextView>
+
+    <!--スピナー-->
+
+    <Spinner
+        android:id="@+id/home_spinner"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg2"
+        app:layout_constraintBottom_toTopOf="@+id/hg3"
+        app:layout_constraintStart_toEndOf="@id/vg9"
+        app:layout_constraintEnd_toStartOf="@id/vg15"
+        android:spinnerMode="dialog"
+        android:textAlignment="center"
+        android:background="@color/colorWhite">
+
+    </Spinner>
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg2"
+        app:layout_constraintBottom_toTopOf="@+id/hg3"
+        app:layout_constraintStart_toEndOf="@id/vg14"
+        app:layout_constraintEnd_toStartOf="@id/vg15"
+        android:background="@drawable/ic_down">
+
+    </ImageView>
+
+
+    <!--下部枠-->
+
+
+    <!--退勤ボタン-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg4"
+        app:layout_constraintBottom_toTopOf="@+id/hg6"
+        app:layout_constraintStart_toEndOf="@id/vg9"
+        app:layout_constraintEnd_toStartOf="@id/vg11">
+
+        <Button
+            android:id="@+id/home_btn_end"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_red">
+        </Button>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin_16dp"
+        app:layout_constraintTop_toTopOf="@+id/hg4"
+        app:layout_constraintBottom_toTopOf="@+id/hg6"
+        app:layout_constraintStart_toEndOf="@id/vg9"
+        app:layout_constraintEnd_toStartOf="@id/vg11"
+        android:background="@drawable/ic_out_red">
+
+    </ImageView>
+
+
+    <TextView
+        android:id="@+id/home_tv_end"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg3"
+        app:layout_constraintBottom_toTopOf="@+id/hg4"
+        app:layout_constraintStart_toEndOf="@id/vg9"
+        app:layout_constraintEnd_toStartOf="@id/vg11"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font_size_24sp"
+        android:text="OUT"
+        />
+
+
+
+    <!--出勤ボタン-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg4"
+        app:layout_constraintBottom_toTopOf="@+id/hg6"
+        app:layout_constraintStart_toEndOf="@id/vg13"
+        app:layout_constraintEnd_toStartOf="@id/vg15">
+
+        <Button
+            android:id="@+id/home_btn_start"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_blue">
+        </Button>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin_16dp"
+        app:layout_constraintTop_toTopOf="@+id/hg4"
+        app:layout_constraintBottom_toTopOf="@+id/hg6"
+        app:layout_constraintStart_toEndOf="@id/vg13"
+        app:layout_constraintEnd_toStartOf="@id/vg15"
+        android:background="@drawable/ic_onwork_blue">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/home_tv_start"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg3"
+        app:layout_constraintBottom_toTopOf="@+id/hg4"
+        app:layout_constraintStart_toEndOf="@id/vg13"
+        app:layout_constraintEnd_toStartOf="@id/vg15"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font_size_24sp"
+        android:text="IN"
+        />
+
+    <!--ボタン区切り線-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg4"
+        app:layout_constraintBottom_toTopOf="@+id/hg6"
+        app:layout_constraintStart_toEndOf="@id/vg11"
+        app:layout_constraintEnd_toStartOf="@id/vg13"
+        android:gravity="center">
+
+        <View
+            android:layout_width="@dimen/width_4dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite">
+
+        </View>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/background_api_process"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg0"
+        app:layout_constraintBottom_toTopOf="@+id/hg10"
+        app:layout_constraintStart_toEndOf="@id/vg0"
+        app:layout_constraintEnd_toStartOf="@id/vg16"
+        android:background="@color/colorBlackTrans75"
+        android:visibility="invisible"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@android:style/Widget.ProgressBar.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

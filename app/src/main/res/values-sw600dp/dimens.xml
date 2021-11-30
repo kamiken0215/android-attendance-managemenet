@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_12dp">18dp</dimen>
+    <dimen name="margin_16dp">24dp</dimen>
+    <dimen name="margin_20dp">30dp</dimen>
+    <dimen name="margin_24dp">36dp</dimen>
+
+    <dimen name="ic_size_16dp">24dp</dimen>
+    <dimen name="ic_size_20dp">30dp</dimen>
+    <dimen name="ic_size_24dp">36dp</dimen>
+    <dimen name="ic_size_32dp">48dp</dimen>
+
+    <dimen name="font_size_16sp">24sp</dimen>
+    <dimen name="font_size_20sp">30sp</dimen>
+    <dimen name="font_size_24sp">36sp</dimen>
+    <dimen name="font_size_28sp">42sp</dimen>
+    <dimen name="font_size_40sp">60sp</dimen>
+</resources>

@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Presentation.Graph.GraphFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorBlack"
+    android:padding="0dp">
+
+    <!--グリッド始まり,縦は16分割,横は10分割-->
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.0625"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.125"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1875" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.25"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3125"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.375"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.4375"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5625"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.625"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.6875"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8125"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.875"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9375"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="1"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="1"/>
+
+    <!--グリッド終わり-->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg0"
+        app:layout_constraintBottom_toTopOf="@+id/hg10"
+        app:layout_constraintStart_toEndOf="@id/vg0"
+        app:layout_constraintEnd_toStartOf="@id/vg3"
+        android:background="@color/colorBlack">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/overtime_data_tv_total_days"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg0"
+        app:layout_constraintBottom_toTopOf="@+id/hg2"
+        app:layout_constraintStart_toEndOf="@id/vg0"
+        app:layout_constraintEnd_toStartOf="@id/vg3"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font_size_28sp"
+        android:text="240">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg2"
+        app:layout_constraintBottom_toTopOf="@+id/hg3"
+        app:layout_constraintStart_toEndOf="@id/vg0"
+        app:layout_constraintEnd_toStartOf="@id/vg3"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="@dimen/ic_size_20dp"
+            android:layout_height="@dimen/ic_size_20dp"
+            android:background="@drawable/ic_go_out_white">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/overtime_data_tv_days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_4dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/font_size_16sp"
+            android:text="days">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/overtime_data_tv_total_hours"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg3"
+        app:layout_constraintBottom_toTopOf="@+id/hg5"
+        app:layout_constraintStart_toEndOf="@id/vg0"
+        app:layout_constraintEnd_toStartOf="@id/vg3"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font_size_28sp"
+        android:text="160">
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg5"
+        app:layout_constraintBottom_toTopOf="@+id/hg6"
+        app:layout_constraintStart_toEndOf="@id/vg0"
+        app:layout_constraintEnd_toStartOf="@id/vg3"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="@dimen/ic_size_20dp"
+            android:layout_height="@dimen/ic_size_20dp"
+            android:background="@drawable/ic_desk_white">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/overtime_data_tv_hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_4dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/font_size_16sp"
+            android:text="hours">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/overtime_data_tv_total_overtimes"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg7"
+        app:layout_constraintBottom_toTopOf="@+id/hg9"
+        app:layout_constraintStart_toEndOf="@id/vg0"
+        app:layout_constraintEnd_toStartOf="@id/vg3"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font_size_28sp"
+        android:text="20">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg9"
+        app:layout_constraintBottom_toTopOf="@+id/hg10"
+        app:layout_constraintStart_toEndOf="@id/vg0"
+        app:layout_constraintEnd_toStartOf="@id/vg3"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+
+            android:layout_width="@dimen/ic_size_20dp"
+            android:layout_height="@dimen/ic_size_20dp"
+            android:background="@drawable/ic_attention_white">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/overtime_data_tv_overtimes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_4dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/font_size_16sp"
+            android:text="over">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <!--区切り線-->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg0"
+        app:layout_constraintBottom_toTopOf="@+id/hg10"
+        app:layout_constraintStart_toEndOf="@id/vg2"
+        app:layout_constraintEnd_toStartOf="@id/vg3"
+        android:gravity="right">
+
+        <View
+            android:layout_width="@dimen/width_8dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorOrange">
+
+        </View>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scroll_hours"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg0"
+        app:layout_constraintBottom_toTopOf="@+id/hg10"
+        app:layout_constraintStart_toEndOf="@id/vg4"
+        app:layout_constraintEnd_toStartOf="@id/vg16"
+        android:background="@color/colorBlack">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <lecho.lib.hellocharts.view.LineChartView
+                android:id="@+id/chart"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                />
+
+            <lecho.lib.hellocharts.view.LineChartView
+                android:id="@+id/chart2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                />
+
+            <lecho.lib.hellocharts.view.LineChartView
+                android:id="@+id/chart3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

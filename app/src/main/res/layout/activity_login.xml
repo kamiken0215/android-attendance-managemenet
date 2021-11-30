@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Presentation.Login.LoginActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_login"
+    android:padding="0dp">
+
+    <!--グリッド始まり,縦は10分割,横は16分割-->
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.4"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.6"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.7"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="1"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.0625"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.125"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1875"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3125"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.375"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4375"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="411dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.625"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6875"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8125"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.875"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9375"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="1"/>
+
+    <!--グリッド終わり-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#73000000">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/login_tv_title_left"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintTop_toTopOf="@+id/hg2"
+        app:layout_constraintBottom_toTopOf="@+id/hg4"
+        app:layout_constraintStart_toEndOf="@id/vg1"
+        app:layout_constraintEnd_toStartOf="@id/vg5"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="KIKYO"
+        android:textSize="@dimen/font_size_40sp"
+        android:textColor="@color/colorDarkOrange">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/login_tv_title_right"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintTop_toTopOf="@+id/hg2"
+        app:layout_constraintBottom_toTopOf="@+id/hg4"
+        app:layout_constraintStart_toEndOf="@id/vg5"
+        app:layout_constraintEnd_toStartOf="@id/vg9"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="WORK"
+        android:textSize="@dimen/font_size_40sp"
+        android:textColor="@color/colorWhite">
+
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/login_ti_userId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/hg5"
+        app:layout_constraintBottom_toTopOf="@+id/hg7"
+        app:layout_constraintStart_toEndOf="@id/vg2"
+        app:layout_constraintEnd_toStartOf="@id/vg8"
+        app:hintAnimationEnabled="true"
+        app:errorTextAppearance="@style/error_appearance"
+        app:hintTextAppearance="@style/hint_appearance"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textCursorDrawable="@color/colorWhite">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/login_edt_userId"
+            android:theme="@style/EditText.Style"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorWhite"
+            android:hint="Email"
+            android:inputType="textWebEditText"
+            android:textSize="@dimen/font_size_16sp"
+            android:maxLength="30"
+            android:text="kamiken0215@gmail.com"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg5"
+        app:layout_constraintBottom_toTopOf="@+id/hg7"
+        app:layout_constraintStart_toEndOf="@id/vg7"
+        app:layout_constraintEnd_toStartOf="@id/vg8"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="@dimen/ic_size_24dp"
+            android:layout_height="@dimen/ic_size_24dp"
+            android:layout_gravity="start"
+            android:background="@drawable/ic_human_white"
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/login_ti_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/hg8"
+        app:layout_constraintBottom_toTopOf="@+id/hg10"
+        app:layout_constraintStart_toEndOf="@id/vg2"
+        app:layout_constraintEnd_toStartOf="@id/vg8"
+        app:hintAnimationEnabled="true"
+        app:hintEnabled="true"
+        app:errorTextAppearance="@style/error_appearance"
+        app:hintTextAppearance="@style/hint_appearance"
+        app:errorEnabled="true"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textCursorDrawable="@color/colorWhite">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/login_edt_password"
+            android:theme="@style/EditText.Style"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorWhite"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="@dimen/font_size_16sp"
+            android:maxLength="12"
+            android:text="kamiken0215"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+        android:id="@+id/login_linear_change_password_visibility"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg8"
+        app:layout_constraintBottom_toTopOf="@+id/hg10"
+        app:layout_constraintStart_toEndOf="@id/vg7"
+        app:layout_constraintEnd_toStartOf="@id/vg8"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/login_img_password_visible"
+            android:layout_width="@dimen/ic_size_24dp"
+            android:layout_height="@dimen/ic_size_24dp"
+            android:layout_gravity="start"
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg11"
+        app:layout_constraintBottom_toTopOf="@+id/hg12"
+        app:layout_constraintStart_toEndOf="@id/vg2"
+        app:layout_constraintEnd_toStartOf="@id/vg8"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/login_btn_do_login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="LOGIN"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/font_size_20sp"
+            android:background="@drawable/button_dark_orange"
+            android:focusable="auto"
+            android:focusableInTouchMode="false"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/login_tv_forgot"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg13"
+        app:layout_constraintBottom_toTopOf="@+id/hg14"
+        app:layout_constraintStart_toEndOf="@id/vg2"
+        app:layout_constraintEnd_toStartOf="@id/vg8"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:text="@string/forgot_password"
+        android:textSize="@dimen/font_size_16sp">
+
+    </TextView>
+
+
+    <LinearLayout
+        android:id="@+id/background_api_process"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg0"
+        app:layout_constraintBottom_toTopOf="@+id/hg16"
+        app:layout_constraintStart_toEndOf="@id/vg0"
+        app:layout_constraintEnd_toStartOf="@id/vg10"
+        android:background="@color/colorBlackTrans75"
+        android:gravity="center">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/progress_bg"
+            android:indeterminate="true"
+            android:indeterminateTintMode="src_in"
+            android:indeterminateTint="@color/colorBlackOrange"
+            android:max="100"
+            android:progress="86"
+            />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

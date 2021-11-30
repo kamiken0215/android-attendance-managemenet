@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Presentation.Home.HomeFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorBlueBlack"
+    android:padding="0dp">
+
+    <!--グリッド始まり,縦は10分割,横は16分割-->
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.4"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.6"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.7"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vg10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="1"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.0625"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.125"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1875"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3125"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.375"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4375"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5625"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.625"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6875"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8125"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.875"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9375"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hg16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="1"/>
+
+    <!--グリッド終わり-->
+
+
+    <!--上部枠-->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg0"
+        app:layout_constraintBottom_toTopOf="@+id/hg2"
+        app:layout_constraintStart_toEndOf="@id/vg0"
+        app:layout_constraintEnd_toStartOf="@id/vg10"
+        android:layout_marginTop="@dimen/margin_4dp"
+        android:layout_marginBottom="@dimen/margin_4dp"
+        android:layout_marginStart="@dimen/margin_12dp"
+        android:layout_marginEnd="@dimen/margin_12dp"
+        android:orientation="horizontal"
+        android:background="@color/colorDarkModeWhite">
+
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/hg0"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/hg1"-->
+<!--        app:layout_constraintStart_toEndOf="@id/vg0"-->
+<!--        app:layout_constraintEnd_toStartOf="@id/vg2"-->
+<!--        android:gravity="center">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="@dimen/ic_size_24dp"-->
+<!--            android:layout_height="@dimen/ic_size_24dp"-->
+<!--            android:background="@drawable/ic_battery">-->
+
+<!--        </ImageView>-->
+
+<!--    </LinearLayout>-->
+
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/home_tv_progress_battery"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/hg0"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/hg1"-->
+<!--        app:layout_constraintStart_toEndOf="@id/vg2"-->
+<!--        app:layout_constraintEnd_toStartOf="@id/vg4"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:textColor="@color/colorWhite"-->
+<!--        android:textSize="@dimen/font_size_12sp">-->
+
+<!--    </TextView>-->
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/home_progress_battery"-->
+<!--        style="?android:attr/progressBarStyleHorizontal"-->
+<!--        android:progressDrawable="@drawable/progressbar_hour"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="12dp"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/hg0"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/hg1"-->
+<!--        app:layout_constraintStart_toEndOf="@id/vg4"-->
+<!--        app:layout_constraintEnd_toStartOf="@id/vg10"-->
+<!--        android:layout_marginEnd="@dimen/margin_16dp"-->
+<!--        android:max="100">-->
+
+<!--    </ProgressBar>-->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg0"
+        app:layout_constraintBottom_toTopOf="@+id/hg1"
+        app:layout_constraintStart_toEndOf="@id/vg0"
+        app:layout_constraintEnd_toStartOf="@id/vg2"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="@dimen/ic_size_24dp"
+            android:layout_height="@dimen/ic_size_24dp"
+            android:background="@drawable/ic_access_time">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/home_tv_progress_time"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg0"
+        app:layout_constraintBottom_toTopOf="@+id/hg1"
+        app:layout_constraintStart_toEndOf="@id/vg2"
+        app:layout_constraintEnd_toStartOf="@id/vg4"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font_size_12sp">
+
+    </TextView>
+
+    <ProgressBar
+        android:id="@+id/home_progress_time"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progressDrawable="@drawable/progressbar_hour"
+        android:layout_width="0dp"
+        android:layout_height="12dp"
+        app:layout_constraintTop_toTopOf="@+id/hg0"
+        app:layout_constraintBottom_toTopOf="@+id/hg1"
+        app:layout_constraintStart_toEndOf="@id/vg4"
+        app:layout_constraintEnd_toStartOf="@id/vg10"
+        android:layout_marginEnd="@dimen/margin_16dp"
+        android:max="200">
+
+    </ProgressBar>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg1"
+        app:layout_constraintBottom_toTopOf="@+id/hg2"
+        app:layout_constraintStart_toEndOf="@id/vg0"
+        app:layout_constraintEnd_toStartOf="@id/vg2"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="@dimen/ic_size_24dp"
+            android:layout_height="@dimen/ic_size_24dp"
+            android:background="@drawable/ic_attention_white">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/home_tv_overtime"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg1"
+        app:layout_constraintBottom_toTopOf="@+id/hg2"
+        app:layout_constraintStart_toEndOf="@id/vg2"
+        app:layout_constraintEnd_toStartOf="@id/vg4"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font_size_12sp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg1"
+        app:layout_constraintBottom_toTopOf="@+id/hg2"
+        app:layout_constraintStart_toEndOf="@id/vg5"
+        app:layout_constraintEnd_toStartOf="@id/vg7"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="@dimen/ic_size_24dp"
+            android:layout_height="@dimen/ic_size_24dp"
+            android:background="@drawable/ic_sleep">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/home_tv_pto"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg1"
+        app:layout_constraintBottom_toTopOf="@+id/hg2"
+        app:layout_constraintStart_toEndOf="@id/vg7"
+        app:layout_constraintEnd_toStartOf="@id/vg10"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font_size_12sp">
+
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg2"
+        app:layout_constraintBottom_toTopOf="@+id/hg6"
+        app:layout_constraintStart_toEndOf="@id/vg0"
+        app:layout_constraintEnd_toStartOf="@id/vg10"
+        android:layout_marginTop="@dimen/margin_4dp"
+        android:layout_marginEnd="@dimen/margin_8dp">
+
+        <lecho.lib.hellocharts.view.ColumnChartView
+            android:id="@+id/home_chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_8dp"
+            android:layout_marginEnd="@dimen/margin_8dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/home_tv_time"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg6"
+        app:layout_constraintBottom_toTopOf="@+id/hg8"
+        app:layout_constraintStart_toEndOf="@id/vg1"
+        app:layout_constraintEnd_toStartOf="@id/vg9"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font_size_24sp"
+        android:text="08:55:24"
+        />
+
+    <!--スピナー-->
+
+    <Spinner
+        android:id="@+id/home_spinner"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_24dp"
+        android:layout_marginBottom="@dimen/margin_24dp"
+        app:layout_constraintTop_toTopOf="@+id/hg7"
+        app:layout_constraintBottom_toTopOf="@+id/hg9"
+        app:layout_constraintStart_toEndOf="@id/vg1"
+        app:layout_constraintEnd_toStartOf="@id/vg9"
+        android:spinnerMode="dialog"
+        android:visibility="visible"
+        android:textAlignment="center"
+        android:background="@color/colorWhiteTrans30">
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/home_tv_work_status"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_24dp"
+        android:layout_marginBottom="@dimen/margin_24dp"
+        app:layout_constraintTop_toTopOf="@+id/hg7"
+        app:layout_constraintBottom_toTopOf="@+id/hg9"
+        app:layout_constraintStart_toEndOf="@id/vg1"
+        app:layout_constraintEnd_toStartOf="@id/vg9"
+        android:gravity="center"
+        android:text="出勤"
+        android:textSize="@dimen/font_size_20sp"
+        android:textColor="@color/colorWhite"
+        android:visibility="invisible">
+
+    </TextView>
+
+
+    <ImageView
+        android:id="@+id/home_img_under"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_24dp"
+        android:layout_marginBottom="@dimen/margin_24dp"
+        android:layout_marginStart="@dimen/margin_4dp"
+        android:layout_marginEnd="@dimen/margin_4dp"
+        app:layout_constraintTop_toTopOf="@+id/hg7"
+        app:layout_constraintBottom_toTopOf="@+id/hg9"
+        app:layout_constraintStart_toEndOf="@id/vg8"
+        app:layout_constraintEnd_toStartOf="@id/vg9"
+        android:visibility="visible"
+        android:background="@drawable/ic_arrow_down">
+
+    </ImageView>
+
+    <!--退勤ボタン-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg9"
+        app:layout_constraintBottom_toTopOf="@+id/hg14"
+        app:layout_constraintStart_toEndOf="@id/vg1"
+        app:layout_constraintEnd_toStartOf="@id/vg5"
+        android:layout_marginEnd="@dimen/margin_4dp"
+        android:layout_marginBottom="@dimen/margin_16dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/colorDarkModeWhite">
+
+        <Button
+            android:id="@+id/home_btn_end"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:background="@drawable/button_red">
+        </Button>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="@dimen/ic_size_40dp"
+        android:layout_height="@dimen/ic_size_40dp"
+        app:layout_constraintTop_toTopOf="@+id/hg9"
+        app:layout_constraintBottom_toTopOf="@+id/hg14"
+        app:layout_constraintStart_toEndOf="@id/vg1"
+        app:layout_constraintEnd_toStartOf="@id/vg5"
+        android:layout_marginEnd="@dimen/margin_4dp"
+        android:layout_marginBottom="@dimen/margin_16dp"
+        android:background="@drawable/ic_out_red">
+
+    </ImageView>
+
+
+    <TextView
+        android:id="@+id/home_tv_end"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg12"
+        app:layout_constraintBottom_toTopOf="@+id/hg14"
+        app:layout_constraintStart_toEndOf="@id/vg2"
+        app:layout_constraintEnd_toStartOf="@id/vg4"
+        android:layout_marginBottom="@dimen/margin_8dp"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font_size_20sp"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/home_linear_finish_button_hide"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg9"
+        app:layout_constraintBottom_toTopOf="@+id/hg14"
+        app:layout_constraintStart_toEndOf="@id/vg1"
+        app:layout_constraintEnd_toStartOf="@id/vg5"
+        android:layout_marginEnd="@dimen/margin_4dp"
+        android:layout_marginBottom="@dimen/margin_16dp"
+        android:orientation="horizontal"
+        android:visibility="invisible"
+        android:background="@color/colorDarkModeBlackTrans75">
+
+    </LinearLayout>
+
+
+    <!--出勤ボタン-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg9"
+        app:layout_constraintBottom_toTopOf="@+id/hg14"
+        app:layout_constraintStart_toEndOf="@id/vg5"
+        app:layout_constraintEnd_toStartOf="@id/vg9"
+        android:layout_marginStart="@dimen/margin_4dp"
+        android:layout_marginBottom="@dimen/margin_16dp"
+        android:gravity="center"
+        android:background="@color/colorDarkModeWhite">
+
+        <Button
+            android:id="@+id/home_btn_start"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/button_blue">
+
+        </Button>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="@dimen/ic_size_32dp"
+        android:layout_height="@dimen/ic_size_32dp"
+        app:layout_constraintTop_toTopOf="@+id/hg9"
+        app:layout_constraintBottom_toTopOf="@+id/hg14"
+        app:layout_constraintStart_toEndOf="@id/vg5"
+        app:layout_constraintEnd_toStartOf="@id/vg9"
+        android:layout_marginStart="@dimen/margin_4dp"
+        android:layout_marginBottom="@dimen/margin_16dp"
+        android:background="@drawable/ic_onwork_blue">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/home_tv_start"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg12"
+        app:layout_constraintBottom_toTopOf="@+id/hg14"
+        app:layout_constraintStart_toEndOf="@id/vg6"
+        app:layout_constraintEnd_toStartOf="@id/vg8"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/margin_8dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font_size_20sp"
+        />
+
+    <LinearLayout
+        android:id="@+id/home_linear_start_button_hide"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg9"
+        app:layout_constraintBottom_toTopOf="@+id/hg14"
+        app:layout_constraintStart_toEndOf="@id/vg5"
+        app:layout_constraintEnd_toStartOf="@id/vg9"
+        android:layout_marginStart="@dimen/margin_4dp"
+        android:layout_marginBottom="@dimen/margin_16dp"
+        android:orientation="horizontal"
+        android:visibility="invisible"
+        android:background="@color/colorDarkModeBlackTrans75">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/background_api_process"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@+id/hg0"
+        app:layout_constraintBottom_toTopOf="@+id/hg16"
+        app:layout_constraintStart_toEndOf="@id/vg0"
+        app:layout_constraintEnd_toStartOf="@id/vg10"
+        android:background="@color/colorBlackTrans75"
+        android:visibility="invisible"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@android:style/Widget.ProgressBar.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

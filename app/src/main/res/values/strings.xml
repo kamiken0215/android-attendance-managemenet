@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">KikyoWork</string>
+
+    <string-array name="spinner_working">
+        <item>
+            出勤
+        </item>
+        <item>
+            休出
+        </item>
+        <item>
+            有給
+        </item>
+        <item>
+            欠勤
+        </item>
+        <item>
+            シフト出
+        </item>
+        <item>
+            シフト休
+        </item>
+        <item>
+            フレックス
+        </item>
+    </string-array>
+
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+
+</resources>

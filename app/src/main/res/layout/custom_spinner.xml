@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/spinner_text"
+    style="?attr/spinnerDropDownItemStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:singleLine="true"
+    android:ellipsize="marquee"
+    android:textColor="@color/colorWhite"
+    android:textAlignment="center"
+    android:textSize="@dimen/font_size_16sp"
+    android:textStyle="bold"
+    android:visibility="visible">
+
+</TextView>
